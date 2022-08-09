@@ -12,5 +12,8 @@ git push origin main(or master)
 // other
 git remote
 git remote -v
-git remote add origin main
-git clone http:\... 本機資料夾名稱
+git remote add origin http://...
+git branch
+git remote add origin main(or master)
+
+git clone http://... 本機資料夾名稱
