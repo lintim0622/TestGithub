@@ -1,6 +1,9 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Second File" << std::endl;
+    int a = 10;
+    int *ptr = &a;
+    a = 5;
+    std::cout << *ptr << std::endl;
     return 0;
 }
